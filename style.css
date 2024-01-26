@@ -1,0 +1,105 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 1440p;
+    height: 100vh;
+}
+.navbar {
+    width: 100vw;
+    height: 150px;
+    background-color: #3F5E8D;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 50px;
+
+    
+}
+.sell {
+    width: 130px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #22292F;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+.location {
+    width: 280px;
+}
+.location::placeholder, .price::placeholder, .surface::placeholder {
+    color: grey;
+    font-style: italic;
+    font-weight: light;
+}
+.location, .price, .surface {    
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.price {
+    width: 210px
+}
+.surface {
+    width: 110px;
+}
+.search {
+    position: absolute;
+    top: 20px;
+    right: 350px;
+}
+.who {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    right: 450px;
+}
+.access {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: space-around;
+}
+a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.advertgrid {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 50vh);
+}
+body {
+    background-color: #22292F;
+}
+.cardcontainer {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: white;
+    height: 275px;
+    width: 400px;
+    border-radius: 10px;
+    
+}
