@@ -15,6 +15,7 @@ body {
     position: sticky;
     top: 0;
     margin-bottom: 50px;
+    z-index: 9000;
 
     
 }
@@ -117,9 +118,9 @@ body {
 }
 .imageframe {
     display: flex;
-    margin-left: 6px;
     margin-top: 6px;
     margin-bottom: 6px;
+    position: relative;
 }
 .one {
     grid-column-start: 1;
@@ -160,6 +161,7 @@ body {
     background-color: #4B4E6D;
     border-bottom-left-radius: 5px;
     border: none;
+    color: white;
 
 }
 .addfavorite {
@@ -187,3 +189,74 @@ footer {
     height: 100px;
     justify-content: space-between;
 }
+
+  .ribbon {
+    position: relative;
+    right: -5px; top: -5px;
+    z-index: 1;
+    text-align: right;
+    margin-top: 6px;
+    margin-right: 6px;
+    height: 181px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#5E69C9 0%, #5E69C9 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px; right: -21px;
+  }
+  .smallhousecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 6px;
+    height: 181px;
+  }
+  .test {
+    margin-bottom: 6px;
+  }
+  .two {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .three {
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+  .four {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  .five {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  .six {
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+  .seven {
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+  .height {
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
+  .nine {
+    grid-column-start: 3;
+    grid-row-start: 3;
+  }
