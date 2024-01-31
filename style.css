@@ -6,6 +6,7 @@
 body {
     width: 1440p;
     height: 100vh;
+    background-color: #3C5E31;
 }
 .navbar {
     width: 100vw;
@@ -98,7 +99,7 @@ body {
     background-color: white;
     height: 275px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     
@@ -108,10 +109,12 @@ body {
     width: 233px;
     height: 181px;
     margin-right: 6px;
+    border-radius: 10px;
 }
 .smallhouse {
     width: 152px;
     height: 88px;
+    border-radius: 10px;
 }
 .imageframe {
     display: flex;
@@ -145,4 +148,34 @@ body {
     margin-right: 6px;
     color: #4E783F;
 
+}
+.cardfooter {
+    display: flex;
+}
+.contact {
+    width: 200px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4B4E6D;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+}
+.addfavorite {
+    width: 200px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2EFDE;
+    border-bottom-right-radius: 5px;
+    border: none;
+
+}
+footer {
+    width: 1440px;
+    height: 120px;
+    background-color: white;
 }
