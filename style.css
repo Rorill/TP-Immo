@@ -90,8 +90,6 @@ body {
     background-color: #22292F;
 }
 .cardcontainer {
-    grid-column-start: 1;
-    grid-row-start: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,5 +99,50 @@ body {
     height: 275px;
     width: 400px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     
+}
+
+.bighouse {
+    width: 233px;
+    height: 181px;
+    margin-right: 6px;
+}
+.smallhouse {
+    width: 152px;
+    height: 88px;
+}
+.imageframe {
+    display: flex;
+    margin-left: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.one {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.house {
+    font-size: 25px;
+    font-weight: bold;
+    color: #3c5e31;
+}
+.houseinfo {
+    margin-left: 6px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.localization {
+    font-size: 12px;
+    font-style: italic;
+    color: #3C5E31;
+}
+.pricevalue {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 6px;
+    color: #4E783F;
+
 }
