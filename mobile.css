@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     
 
     * {
@@ -11,7 +11,7 @@
     }
     .navbar {
         width: 100%;
-        height: 175px;
+        height: 130px;
         background-color: #3F5E8D;
         padding-top: 20px;
         position: sticky;
@@ -106,7 +106,7 @@
     .card {
         background-color: white;
         height: 275px;
-        width: 400px;
+        width: 350px;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -114,7 +114,7 @@
     }
     
     .bighouse {
-        width: 233px;
+        width: 175px;
         height: 181px;
         margin-right: 6px;
         border-radius: 10px;
