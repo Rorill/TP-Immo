@@ -1,0 +1,292 @@
+@media screen and (max-width: 900px) {
+    
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        width: 1440p;
+        background-color: #3C5E31;
+    }
+    .navbar {
+        width: 100%;
+        height: 175px;
+        background-color: #3F5E8D;
+        padding-top: 20px;
+        position: sticky;
+        top: 0;
+        margin-bottom: 50px;
+        z-index: 9000;
+    
+        
+    }
+    .sell {
+        width: 130px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        background-color: #22292F;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    
+    }
+    .location {
+        width: 280px;
+    }
+    .location::placeholder, .price::placeholder, .surface::placeholder {
+        color: grey;
+        font-style: italic;
+        font-weight: light;
+    }
+    .location, .price, .surface {    
+        height: 40px;
+        border-radius: 10px;
+        margin-right: 20px;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .price {
+        width: 210px
+    }
+    .surface {
+        width: 110px;
+    }
+    .search {
+        position: absolute;
+        top: 20px;
+        right: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+        justify-content: space-between;
+    }
+    .who {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        top: 20px;
+        right: 60px;
+        display: none;
+    }
+    .access {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        justify-content: space-around;
+    }
+    a {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .advertgrid {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 50vh);
+        margin-bottom: 50px;
+    }
+    body {
+        background-color: #22292F;
+    }
+    .cardcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        background-color: white;
+        height: 275px;
+        width: 400px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .bighouse {
+        width: 233px;
+        height: 181px;
+        margin-right: 6px;
+        border-radius: 10px;
+    }
+    .smallhouse {
+        width: 152px;
+        height: 88px;
+        border-radius: 10px;
+    }
+    .imageframe {
+        display: flex;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        position: relative;
+    }
+    .one {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    .house {
+        font-size: 25px;
+        font-weight: bold;
+        color: #3c5e31;
+    }
+    .houseinfo {
+        margin-left: 6px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .localization {
+        font-size: 12px;
+        font-style: italic;
+        color: #3C5E31;
+    }
+    .pricevalue {
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 6px;
+        color: #4E783F;
+    
+    }
+    .cardfooter {
+        display: flex;
+    }
+    .contact {
+        width: 200px;
+        height: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4B4E6D;
+        border-bottom-left-radius: 5px;
+        border: none;
+        color: white;
+    
+    }
+    .addfavorite {
+        width: 200px;
+        height: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #E2EFDE;
+        border-bottom-right-radius: 5px;
+        border: none;
+    
+    }
+      footer {
+        width: 100%;
+        height: 120px;
+        background-color: #3F5E8D;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+      .socials {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-between;
+    }
+    
+      .ribbon {
+        position: relative;
+        right: -5px; top: -5px;
+        z-index: 1;
+        text-align: right;
+        margin-top: 6px;
+        margin-right: 6px;
+        height: 181px;
+        width: 100%;
+        overflow: hidden;
+      }
+      .ribbon span {
+        font-size: 10px;
+        font-weight: bold;
+        color: #FFF;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 20px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        width: 100px;
+        display: block;
+        background: #79A70A;
+        background: linear-gradient(#5E69C9 0%, #5E69C9 100%);
+        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+        position: absolute;
+        top: 19px; right: -21px;
+      }
+      .smallhousecontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 6px;
+        height: 181px;
+      }
+      .test {
+        margin-bottom: 6px;
+      }
+      .two {
+        grid-column-start: 1;
+        grid-row-start: 2;
+      }
+      .three {
+        grid-column-start: 1;
+        grid-row-start: 3;
+      }
+      .four {
+        grid-column-start: 1;
+        grid-row-start: 4;
+      }
+      .five {
+        grid-column-start: 1;
+        grid-row-start: 5;
+      }
+      .six {
+        grid-column-start: 1;
+        grid-row-start: 6;
+      }
+      .seven {
+        grid-column-start: 1;
+        grid-row-start: 7;
+      }
+      .height {
+        grid-column-start: 1;
+        grid-row-start: 8;
+      }
+      .nine {
+        grid-column-start: 1;
+        grid-row-start: 9;
+      }
+      .logo {
+        width: 130px;
+        height: 130px;
+        border-radius: 5px;
+      }
+      .logobutton {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+      }
+      .seemore {
+        width: 30px;
+        height: 15px;
+        font-size: 8px;
+        background-color: #3F5E8D;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+    
+      } 
+    }
