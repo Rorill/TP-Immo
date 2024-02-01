@@ -271,3 +271,13 @@ body {
     flex-direction: column;
     margin-left: 20px;
   }
+  .seemore {
+    width: 30px;
+    height: 15px;
+    font-size: 8px;
+    background-color: #3F5E8D;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+  }
