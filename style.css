@@ -6,7 +6,7 @@
     margin: 0;
 }
 body {
-    width: 1440p;
+    width: 100%;
     background-color: #3C5E31;
 }
 .navbar {
@@ -84,7 +84,7 @@ a {
     text-decoration: none;
 }
 .advertgrid {
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 50vh);
