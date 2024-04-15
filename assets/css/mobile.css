@@ -93,7 +93,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(9, 35vh);
-        margin-left: 50px;
+        margin: auto;
     }
     body {
         background-color: #22292F;
