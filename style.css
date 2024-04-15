@@ -88,7 +88,7 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 50vh);
-    margin-bottom: 50px;
+    margin: auto;
 }
 body {
     background-color: #22292F;
@@ -97,6 +97,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .card {
     background-color: white;
@@ -230,38 +231,6 @@ body {
   }
   .test {
     margin-bottom: 6px;
-  }
-  .two {
-    grid-column-start: 2;
-    grid-row-start: 1;
-  }
-  .three {
-    grid-column-start: 3;
-    grid-row-start: 1;
-  }
-  .four {
-    grid-column-start: 1;
-    grid-row-start: 2;
-  }
-  .five {
-    grid-column-start: 2;
-    grid-row-start: 2;
-  }
-  .six {
-    grid-column-start: 3;
-    grid-row-start: 2;
-  }
-  .seven {
-    grid-column-start: 1;
-    grid-row-start: 3;
-  }
-  .height {
-    grid-column-start: 2;
-    grid-row-start: 3;
-  }
-  .nine {
-    grid-column-start: 3;
-    grid-row-start: 3;
   }
   .logo {
     width: 130px;
