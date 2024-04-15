@@ -5,23 +5,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="mobile.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/mobile.css">
     </head>
 
     <body>
-        <?php include '_header' ?>
+        <?php include './partials/_header.php' ?>
         <div class="advertgrid">
         <?php
         for($i = 0; $i < 9; $i++) {
-            include '_card.php';
+            include './partials/_card.php';
         }
 
         ?>
         </div>
         <footer>
             <?php 
-            include '_footer.php'
+            include './partials/_footer.php'
             ?>
         </footer>
     </body>
