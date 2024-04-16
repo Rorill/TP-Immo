@@ -19,11 +19,10 @@
 
         ?>
         </div>
-        <footer>
+        
             <?php 
             include './partials/_footer.php'
             ?>
-        </footer>
     </body>
 
     </html>

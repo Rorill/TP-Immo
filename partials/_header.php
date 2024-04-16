@@ -1,5 +1,5 @@
 <nav class="navbar"><div class="logobutton"><button class="sell">Sell/Rent your property</button>
-            <img class="logo" src="./assets/IMG/Immo.webp" alt=""> </div>
+            <img class="logo" src="/assets/IMG/Immo.webp" alt=""> </div>
             <form class="search" action=""><input class="location" placeholder="LOCATION"><input class="price"
                     placeholder="PRICE" type="number" min="100"><input class="surface" type="number"
                     placeholder="SURFACE" min="0"></form>
