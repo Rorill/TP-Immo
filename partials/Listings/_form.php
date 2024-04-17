@@ -23,6 +23,48 @@
 
 
 <button class="sendListing" type="submit">Create Listing</button>
-
-
 </form>
+
+<?php 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $ListingType = trim($_POST["ListingType"]);
+  $name = trim($_POST["name"]);
+  $mail = trim($_POST["mail"]);
+  $price = trim($_POST["Price"]);
+  $location = trim($_POST['Location']);
+  $message = trim($_POST["message"]);
+
+  $errors = [];
+
+  if (empty($ListingType)) {
+    $errors[] = "Please chose your type of listing";
+  }
+  if (empty($name)) {
+    $errors[] = "Please enter a name";
+  }
+  if (empty($mail)) {
+    $errors[] = "Please enter a mail";
+  }
+  if (empty($price)) {
+    $errors[] = "Please enter a price";
+  }
+  if (empty($location)) {
+    $errors[] = "Please enter a location";
+  }
+  if (empty($message)) {
+    $errors[] = "Please write a description";
+  }
+ 
+}
+?> 
+
+<?php if (!empty($errors)) : ?>
+    <div class="errorContainer">
+    <h2 class="errorMessage">Merci de corriger les erreurs suivantes :</h2>
+    <ul class="errors">
+      <?php foreach ($errors as $error) : ?>
+        <li class="formError"><?= $error ?></li>
+        <?php endforeach; ?>
+    </ul>
+      </div>
+  <?php endif; ?>

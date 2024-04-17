@@ -217,6 +217,42 @@ body {
     border: none;
 
 }
+
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorMessage {
+    width: 400px;
+    height: 20px;
+    background-color: White;
+    color: red;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    justify-self: center;
+}
+.errors{
+    list-style-type: none;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: white;
+    color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
   footer {
     width: 100%;
     height: 120px;
