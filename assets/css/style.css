@@ -242,6 +242,7 @@ body {
 .errors{
     list-style-type: none;
     width: 200px;
+    height: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
