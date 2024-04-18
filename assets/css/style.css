@@ -327,4 +327,20 @@ body {
 
   } }
 
-  
+.loginForm {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3F5E8D;
+    font-family: sans-serif;
+}
+
+.loginbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3F5E8D
+}

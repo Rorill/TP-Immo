@@ -15,7 +15,7 @@
 <label class="label" for="Price">Price :</label>
 <input class="textInput" type="number" name="Price">
 
-<label class="label" for="Location">Location of your property :</label>
+<label class="label" for="Location">Localization of your property :</label>
 <input class="textInput" type="text" name="Location" id="Location">
 
 <label class="label" for="description">Description :</label>
