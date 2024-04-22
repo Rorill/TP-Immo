@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $price = trim($_POST["Price"]);
   $location = trim($_POST['Location']);
   $message = trim($_POST["message"]);
- 
+  $_SESSION['annonces'][] = ['user' => $_SESSION['user'], 'title' => $title, 'price ' => $price, 'Location' => $location]; 
 }
 ?> 
 
@@ -60,7 +60,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <button class="sendListing" type="submit">Create Listing</button>
 </form>
-
-
-
-
