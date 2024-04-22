@@ -14,16 +14,21 @@
         <?php include './partials/_header.php' ?>
         <div class="advertgrid">
         <?php
-         
-
+        for($i = 0; $i < 9; $i ++) {
+            include './partials/_card.php';
+        }
+    
         if($_SESSION['isLoggedIn'] = true) {
             $listingTable = [];
-            for($i = 0; $i < 9; $i++) {
+
+            $i = count($_SESSION['annonces']);
+            foreach($_SESSION['annonces'] as $annonce) {
                 include './partials/_card.php';
-            };
 
+            }
+       
 
-        };
+        }
 
         ?>
         </div>

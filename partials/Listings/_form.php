@@ -6,11 +6,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $price = trim($_POST["Price"]);
   $location = trim($_POST['Location']);
   $message = trim($_POST["message"]);
-  $_SESSION['annonces'][] = ['user' => $_SESSION['user'], 'title' => $title, 'price ' => $price, 'Location' => $location]; 
+  $_SESSION['annonces'][] = ['user' => $_SESSION['user'], 'type' => $ListingType, 'title' => $title, 'price' => $price, 'Location' => $location, 'mail' => $mail, ]; 
 }
 ?> 
 
-<form action="" method="post" class="newListingForm">
+<form enctype="multipart/form-data" action="" method="post" class="newListingForm">
 
 <label class="label" for="ListingType">Listing Type :</label>
 <select name="ListingType" id="ListingType">
