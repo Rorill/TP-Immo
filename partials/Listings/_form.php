@@ -56,6 +56,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <p class="errors"> please enter a description </p>
 <?php endif ?>
 
+<label for=""></label>
+
 
 
 <button class="sendListing" type="submit">Create Listing</button>

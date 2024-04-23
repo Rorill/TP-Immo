@@ -14,7 +14,59 @@
         <?php include './partials/_header.php' ?>
         <div class="advertgrid">
         <?php
-        for($i = 0; $i < 9; $i ++) {
+        
+        $placeholder = [
+            [
+                'type' => 'rent',
+                'title' => 'Maison',
+                'mail' => 'example@xyz.com',
+                'price' => '2500',
+                'Location' => 'Lyon',
+                'message' => 'Placeholder annonce'
+            ],
+            [
+                'type' => 'sale',
+                'title' => 'Charmant Studio',
+                'mail' => 'example@xyz.com',
+                'price' => '250 000',
+                'Location' => 'Mulhouse',
+                'message' => 'Placeholder annonce'
+            ],
+            [
+                'type' => 'rent',
+                'title' => 'Appartement',
+                'mail' => 'example@xyz.com',
+                'price' => '750',
+                'Location' => 'Saint-Malo',
+                'message' => 'Placeholder annonce'
+            ],
+            [
+                'type' => 'rent',
+                'title' => 'Maison',
+                'mail' => 'example@xyz.com',
+                'price' => '2000',
+                'Location' => 'Marseille',
+                'message' => 'Placeholder annonce'
+            ],
+            [
+                'type' => 'sale',
+                'title' => 'Studio',
+                'mail' => 'example@xyz.com',
+                'price' => '150 000',
+                'Location' => 'Montluçon',
+                'message' => 'Placeholder annonce'
+            ],
+            [
+                'type' => 'rent',
+                'title' => 'Maison',
+                'mail' => 'example@xyz.com',
+                'price' => '250 000',
+                'Location' => 'Lyon',
+                'message' => 'Placeholder annonce'
+            ]
+        ];
+
+        foreach($placeholder as $annonce) {
             include './partials/_card.php';
         }
     
