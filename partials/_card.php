@@ -1,6 +1,6 @@
 <div class="card">
                     <div class="imageframe">
-                        <div class="ribbon"> <span><?php echo 'for '.$annonce['type']; ?></span>
+                        <div class="ribbon"> <span><?php echo 'for '.$annonce['ListingType']; ?></span>
                         <img class="bighouse" src="./assets/IMG/maison.jpg" alt="a house"></div>
                         <div class="smallhousecontainer"><img class="smallhouse test" src="./assets/IMG/maison.jpg" alt="">
                             <img class="smallhouse" src="./assets/IMG/maison.jpg" alt=""></div>

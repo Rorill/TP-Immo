@@ -1,19 +1,21 @@
 <?php 
 session_start();
+require_once("./config/pdo.php");
 
 if($_SERVER["REQUEST_METHOD"] === "POST") {
 $login = $_POST['identity'];
 $password = $_POST['password'];
-if($login === 'Guillaume' && $password === 'Fatah') {
-    $_SESSION['user'] = $login;
-    $_SESSION['isLoggedIn'] = true;
+$stmt = $pdo->prepare("SELECT * FROM users WHERE email=:email AND password=:pass");
+$stmt->bindValue(":email", $login, PDO::PARAM_STR);
+$stmt->bindValue(":email", $login, PDO::PARAM_STR);
+$stmt->execute();
     header('Location:   index.php');
 }   
 else {
     $_SESSION['user'] = $login;
     $_SESSION['isLoggedIn'] = false;
     if ($_SESSION['user'] != null) {echo "identifiants inccorects";}
-} }
+} 
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +31,7 @@ else {
 
 
 <form action="_login.php" method="POST" class="loginForm">
-<label for="identity">Login :</label>
+<label for="identity">mail :</label>
 <input type="text" name="identity" id="identity">
 <label for="password">Password :</label>
 <input type="password" name="password" id="password">

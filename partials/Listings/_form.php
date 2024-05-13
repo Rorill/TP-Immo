@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $price = trim($_POST["Price"]);
   $location = trim($_POST['Location']);
   $message = trim($_POST["message"]);
-  $_SESSION['annonces'][] = ['user' => $_SESSION['user'], 'type' => $ListingType, 'title' => $title, 'price' => $price, 'Location' => $location, 'mail' => $mail, ]; 
+  $_SESSION['annonces'][] = ['user' => $_SESSION['user'], 'ListingType' => $ListingType, 'title' => $title, 'price' => $price, 'Location' => $location, 'mail' => $mail, ]; 
 }
 ?> 
 

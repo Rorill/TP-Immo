@@ -15,9 +15,9 @@
         <div class="advertgrid">
         <?php
         
-        $placeholder = [
+        /* $placeholder = [
             [
-                'type' => 'rent',
+                'ListingType' => 'rent',
                 'title' => 'Maison',
                 'mail' => 'example@xyz.com',
                 'price' => '2500',
@@ -25,7 +25,7 @@
                 'message' => 'Placeholder annonce'
             ],
             [
-                'type' => 'sale',
+                'ListingType' => 'sale',
                 'title' => 'Charmant Studio',
                 'mail' => 'example@xyz.com',
                 'price' => '250 000',
@@ -33,7 +33,7 @@
                 'message' => 'Placeholder annonce'
             ],
             [
-                'type' => 'rent',
+                'ListingType' => 'rent',
                 'title' => 'Appartement',
                 'mail' => 'example@xyz.com',
                 'price' => '750',
@@ -41,7 +41,7 @@
                 'message' => 'Placeholder annonce'
             ],
             [
-                'type' => 'rent',
+                'ListingType' => 'rent',
                 'title' => 'Maison',
                 'mail' => 'example@xyz.com',
                 'price' => '2000',
@@ -49,7 +49,7 @@
                 'message' => 'Placeholder annonce'
             ],
             [
-                'type' => 'sale',
+                'ListingType' => 'sale',
                 'title' => 'Studio',
                 'mail' => 'example@xyz.com',
                 'price' => '150 000',
@@ -57,14 +57,14 @@
                 'message' => 'Placeholder annonce'
             ],
             [
-                'type' => 'rent',
+                'ListingType' => 'rent',
                 'title' => 'Maison',
                 'mail' => 'example@xyz.com',
                 'price' => '250 000',
                 'Location' => 'Lyon',
                 'message' => 'Placeholder annonce'
             ]
-        ];
+        ]; */
 
         foreach($placeholder as $annonce) {
             include './partials/_card.php';
